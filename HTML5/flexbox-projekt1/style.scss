@@ -17,10 +17,12 @@
   }
 *{
     box-sizing: border-box;
+    --main-color: lavender;
 }
 
 body{
     margin: 0;
+    background-color: var(--main-color);
 }
 
 .offers{
@@ -43,9 +45,6 @@ body{
     text-decoration: none;
 }
 
-.gillimore-font{
-    font-family: ;
-}
 
 .offers__single-offer:hover .offers__single-offer-icon{
     transform: translateY(-10px);
@@ -64,4 +63,16 @@ body{
 }
 
 .offers__single-offer-intro{
+}
+
+.plus{
+    fill: rgb(204, 79, 79);
+}
+
+.kolko{
+    fill: rosybrown;
+}
+
+.zarys{
+    fill: indigo;
 }
